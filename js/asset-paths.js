@@ -1,0 +1,1 @@
+window.__asset = function(p){ return p; };
