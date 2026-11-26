@@ -82,7 +82,7 @@ const set = `<div class="marquee__item">${words.map(w => `<span>${w}</span>${sta
 $("#marq").innerHTML = set + set;
 
 /* ---------------- about portrait copy ---------------- */
-$("#aboutImg").src = $("#portraitImg").src;
+$("#aboutImg").src = "images/about.webp";
 
 /* ---------------- CV (embedded PDF) ---------------- */
 document.addEventListener("click", e => {
